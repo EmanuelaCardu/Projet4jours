@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>ASP_Projet4Jours</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BLL-Projet4Jours\BLL-Projet4Jours.csproj" />
+    <ProjectReference Include="..\DAL-Projet4Jours\DAL-Projet4Jours.csproj" />
+    <ProjectReference Include="..\DB\DB.sqlproj" />
+    <ProjectReference Include="..\Shared-Projet4Jours\Shared-Projet4Jours.csproj" />
+  </ItemGroup>
+
+</Project>
